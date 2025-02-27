@@ -1,5 +1,5 @@
 <script>
-    import {HeroSection, ChapterPreview,AuthorSection, FaqSection} from "$components";
+	import { HeroSection, ChapterPreview, AuthorSection, FaqSection } from '$components';
 </script>
 
 <HeroSection />
