@@ -1,6 +1,6 @@
 import { json } from '@sveltejs/kit';
 import { Resend } from 'resend';
-import { RESEND_API_KEY } from '$env/static/private';
+/* import { RESEND_API_KEY } from '$env/static/private'; */
 
 export async function POST({ request }) {
 	const requestBody = await request.json();
